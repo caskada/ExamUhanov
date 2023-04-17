@@ -1,0 +1,25 @@
+﻿<Window x:Class="UhanovDExam.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UhanovDExam"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Name="textBox" Height="33" Margin="368,37,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="125" TextChanged="TextBox_TextChanged" FontSize="17" />
+        <TextBox HorizontalAlignment="Left" Name="textBox1" Height="32" Margin="368,105,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="125" FontSize="17" TextChanged="TextBox_TextChanged_1"/>
+        <TextBox HorizontalAlignment="Left" Name="textBox2" Height="33" Margin="369,177,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="124" FontSize="17" TextChanged="TextBox_TextChanged_2"/>
+        <TextBox HorizontalAlignment="Left" Name="textBoxminus" Height="32" Margin="367,247,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="126" FontSize="17"  PreviewTextInput="textBoxminus_PreviewTextInput" />
+        <TextBlock HorizontalAlignment="Left" Margin="208,40,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="30" Width="124" Name="textBlock"  />
+        <TextBlock HorizontalAlignment="Left" Margin="208,105,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="32" Width="124" Name="textBlock1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="208,177,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="33" Width="124" Name="textBlock2"/>
+        <TextBlock HorizontalAlignment="Left" Margin="208,247,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="32" Width="124" />
+        <Label Content="Больница" HorizontalAlignment="Left" Margin="538,40,0,0" VerticalAlignment="Top" FontSize="15" Width="92"/>
+        <Label Content="ФИО Врача" HorizontalAlignment="Left" Margin="538,101,0,0" VerticalAlignment="Top" FontSize="15" Height="36" Width="92"/>
+        <Label Content="ФИО Пациента" HorizontalAlignment="Left" Margin="538,173,0,0" VerticalAlignment="Top" FontSize="15" Height="37" Width="117"/>
+        <Label Content="Номер в очереди" HorizontalAlignment="Left" Margin="538,243,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.819,3.509" FontSize="15" Height="36" Width="139"/>
+
+
+    </Grid>
+</Window>
